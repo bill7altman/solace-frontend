@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Note } from "./types";
 
-const API_BASE_URL = "https://solace-backend-wz28.vercel.app:5000/notes";
+const API_BASE_URL = "https://solace-backend-wz28.vercel.app/notes";
 
 export const fetchNotes = async (): Promise<Note[]> => {
   try {
